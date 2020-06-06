@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    font-family: "Baloo 2", sans-serif;
+    background-color: #2961b4;
+}
+
+main {
+    padding: 2rem;
+}
+
+header {
+    width: 90vw;
+    position: relative;
+    margin: 20px;
+}
+
+.divHeader {
+    text-align: center;
+}
+
+form {
+    display: contents;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-45%);
+}
+
+input {
+    height: 70px;
+}
+
+.inputText {
+    width: 80%;
+    font-size: 40px;
+    background-color: #2961b4;
+    color: white;
+    border-radius: 10px 0 0 10px;
+}
+
+.inputButton {
+    display: inline-block;
+    width: 80px;
+    font-size: 40px;
+    background-color: #2961b4;
+    color: white;
+    border-radius: 0 10px 10px 0;
+}
+
+.card-row {
+    display: grid;
+    grid-gap: 2rem;
+    -webkit-box-pack: center;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(50ch, 0fr));
+}
+
+.card {
+    border: 1px solid #c9c9c9;
+    border-radius: 7px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    background-color: white;
+    text-align: center;
+}
+
+.card__content {
+    padding: 20px;
+}
+
+.card__img {
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 62.5%;
+}
